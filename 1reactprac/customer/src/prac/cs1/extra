@@ -1,0 +1,22 @@
+Highlights:
+
+Creating components required for the application
+
+Implementing star rating functionality
+
+Demosteps:
+
+ 
+
+Below is the list of components to be created to build this application:
+
+->Login: Form elements for login functionality
+->LoginForm: Contains the Login component and associated styles
+->Navigation: All the top navigation bar functionalities are listed in this
+->Footer: Footer content of the application
+->Rater: 5 Star rating functionality
+->Product: Includes product details and 5 star rating  component of a single product
+->FeedbackComp: Implements Feedback submission form, list of all feedbacks and 5 star rating             functionalities
+->PurchasedItems: Contains Product(s)
+->ProductDetails: Contains FeedbackComp and selected Product component
+Out of the listed components let us create 2 components Product and Rater component. Screenshot and the code is as follows:

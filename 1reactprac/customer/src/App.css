@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.login{
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+}
+
+.form-title{
+  align-items: center;
+  margin:auto;
+  margin-top: 10%;
+  background-color: white;
+}
+
+.form-body{
+  background-color: #e6e4e4;
+}
+
+.border{
+  border: 2px solid black;
+}
+.form{
+  margin-top: 10%;
+  background-color: #e6e4e4;
+}
+.formdefect{
+
+}
+
+.table,th,td{
+  background-color: rgb(245, 244, 244);
+  border: 2px solid white;
+}
+.table-header{
+  background-color: rgb(16, 131, 131);
+  color: white;
+}
