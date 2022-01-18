@@ -3,6 +3,11 @@ import React from "react";
 class Defects extends React.Component{
 
     render(){
+        var tabledata=[
+            {category:'UI',desc:'Submit button  coming to the extreme left. Refer the screenshot',priority:1,status:'Open', changestate:'Close Defect'},
+            {category:'functional',desc:'Submit button  coming to the extreme left. Refer the screenshot',priority:2,status:'Open', changestate:'Close Defect'},
+            {category:'change request',desc:'Submit button  coming to the extreme left. Refer the screenshot',priority:3,status:'Open', changestate:'No Action Pending'}
+        ]
         return(
             <div className="formdefect border w-50 m-auto my-4">
                 <h1>Defect Tracker</h1>
@@ -43,6 +48,16 @@ class Defects extends React.Component{
                             <th>Change status</th>
                         </tr>
                         <tbody>
+                            {tabledata.map(data => {
+                                        return (<tr>
+                                                <td>{data.category}</td>
+                                                <td>{data.desc}</td>
+                                                <td>{data.priority}</td>
+                                                <td>{data.status}</td>
+                                                <td>{data.changestate}</td>
+                                        </tr>)
+                                })
+                            }
                             <tr>
                                 <td>UI</td>
                                 <td>Submit button  coming to the extreme left. Refer the screenshot</td>
